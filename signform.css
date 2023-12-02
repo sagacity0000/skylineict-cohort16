@@ -1,0 +1,201 @@
+body{
+background-color: red;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.contianer-form{
+
+    width: 60%;
+    color: darkblue;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    height: 80vh;
+    margin-top: 15px;
+    
+   
+}
+
+
+/* my  form info design  */
+
+.form-name{
+
+    text-align: left;
+    margin-left: 25%;
+    width: 98%;
+
+    
+}
+
+
+.form-email{
+
+    text-align: left;
+    margin-left: 25%;
+    width: 98%;
+
+    
+}
+
+.form-tel{
+
+    text-align: left;
+    margin-left: 25%;
+    width: 98%;
+
+    
+}
+
+
+input[type=text]{
+
+    width: 50%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+    
+    
+}
+
+
+input[type=email]{
+
+    width: 50%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+    
+    
+    
+}
+
+
+input[type=tel]{
+
+    width: 50%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+    
+    
+    
+}
+
+
+input[type=gender]{
+
+    width: 80%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+       
+    
+}
+
+.container-flex{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+
+input[type=age]{
+
+    width: 80%;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+    input[type=submit]{
+
+        width: 30%;
+        padding: 10px;
+        margin-top: 10px;
+        background-color: darkblue;
+        margin-bottom: 20px;
+        color: white;
+        border-radius: 10px;
+    }
+    
+
+
+/* my divider design */
+
+.divider{
+
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.divider::before, .divider::after{
+
+    content: "";
+    padding: 1px;
+    background-color: gray;
+    flex: 1px;
+    margin: 20px;
+
+}
+
+
+
+.btn-social{
+    padding: 10px 30px;
+    margin-top: 20px;
+
+}
+
+
+
+.btn-social:nth-child(1){
+    font-size: 40px;
+    color: red
+
+}
+
+
+.btn-social:nth-child(2){
+    font-size: 40px;
+    
+
+}
+
+.btn-social:nth-child(3){
+    font-size: 40px;
+    
+
+}
+
+
+
+
+
