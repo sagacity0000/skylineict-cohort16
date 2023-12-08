@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+ 
+body{
+
+  background-color: lightgrey;
+  font-size: 15px;
+}
+
+
+
+.container-table{
+background-color: whitesmoke;
+font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+width: 80%;
+margin: auto;
+height: 100vh;
+}
+
+ .table-header ul{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 20px;
+  margin-right: 3rem;
+position: relative;
+padding-bottom: 3rem;
+ }
+
+
+ .table-address2 ul{
+ position: absolute;
+ top: 7rem;
+ right: 0;
+ margin-right: 10rem;
+ list-style-type: none;
+
+
+ } 
+
+
+ .table-address ul{
+ list-style-type: none;
+ padding-bottom: 4rem;
+ }
+
+table{
+  width: 90%;
+  font-size: 15px;
+  padding-bottom: 30px;
+  margin-left: 3rem;
+}
+
+
+
+ table, th,td{
+ border-bottom: 1px solid transparent;
+ border-collapse: collapse;
+  
+ } 
+ th,td{
+  text-align: center;
+  padding: 10px;
+ } 
+ tr:nth-child(even){
+
+  background-color: lightgrey;
+ }
+ tr td:hover{
+  color: whitesmoke;
+  outline: none;
+ }
+ 
+ 
+ .sub{
+ display: flex;
+  justify-content: space-around;
+  
+ } 
+ 
+ .sub{
+ 
+  padding-left: 45rem;
+  font-size: 15px;
+ }
+/* 
+ here is my mobile responsiveness */
+
+ 
+
+@media (max-width:1186px ){
+
+  .container-table{
+  
+  }
+       
+  .sub{
+
+        padding-left: 25rem;
+       }
+     .table-header{
+
+    width: 100%;
+
+     } 
+      th,td{
+
+      padding: 5px;
+
+      } 
+
+    }
