@@ -1,0 +1,149 @@
+.square-up img{
+width: 20px;
+border-radius: 4px;
+}
+
+.samantha img{
+width: 30px;
+border-radius: 50%;
+}
+
+/* Here is my container */
+.container{
+width: 80%;
+margin: auto;
+}
+/* Here is my flex design */
+.flex{
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin-bottom: 10px;
+background-color: aliceblue;
+
+}
+
+/* This is my design for newest and newest student */
+.newest{
+display: flex;
+}
+
+/* Here is my design for search */
+.search{
+position: relative;
+}
+
+input[type=search]{
+/* padding: 10px 10px; */
+padding: 6px 20px;
+left: 0;
+border-radius: 8px;
+text-indent: 25px;
+}
+
+input[type=search]:focus{
+    padding: 5px;
+    
+    
+    }
+
+.icon{
+/* margin-left: 10px; */
+position: absolute;
+left: 5%;
+top: 30%;
+
+}
+/* Here is my design for newest */
+.but{
+padding: 6px 35px;
+background-color: white;
+border-radius: 8px;
+text-indent: -20px;
+}
+.caret{
+position: relative;
+}
+.caret-down{
+position: relative;
+right: 22%;
+}
+
+.plus{
+position: relative;
+}
+.newest-plus{
+padding: 6px 25px;
+color: white;
+background-color: darkblue;
+border-radius: 10px;
+text-indent: 15px;
+}
+
+.caret-plus{
+position: relative;
+left: 22%;
+color: white;
+font-size: 10px;
+font-weight: 2px solid;
+}
+
+
+table{
+width: 90%;
+}
+
+td{
+background-color: khaki;
+padding: 10px;
+
+}
+
+th{
+background-color: brown;
+padding: 5px;
+}
+
+
+table, td, th{
+border-collapse: collapse;
+}
+
+/* .phone{
+color: white;
+} */
+
+/* Here is my VIIA design */
+.VIIA1{
+background-color: rgba(255, 55, 0, 0.945);
+border-radius: 5PX;
+color: white;
+}
+
+.VIIA2{
+background-color: yellow;
+color: white;
+border-radius: 5PX;
+}
+
+.VIIA3{
+background-color: darkblue;
+color: white;
+border-radius: 5PX;
+}
+
+.VIIA4{
+background-color: rgb(255, 132, 0);
+color: white;
+border-radius: 5PX;
+}
+
+.VIIA5{
+background-color: rgb(144, 165, 42);
+color: white;
+border-radius: 5px;
+}
+
+@media{
+    
+}

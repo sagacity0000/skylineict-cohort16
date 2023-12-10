@@ -1,0 +1,64 @@
+.container{
+background-image: url(../image1/flower.jpg);
+position: relative;
+height: 68vh;
+width: 50%;
+margin: auto;
+border-radius: 20px;
+}
+
+.content{
+background-color: white;
+width: 95%;
+margin: auto;
+height: 65vh;
+text-align: center;
+border-radius: 30px;
+
+}
+
+.email{
+margin: auto;
+;
+}
+
+.square img{
+width: 150px;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.flex{
+position: relative;
+
+}
+
+.envelope{
+font-size: 100px;
+top: 22%;
+position: absolute;
+left: 42%;
+color: gray;
+margin-bottom: 50%;
+font-weight: bolder;
+
+}
+
+.email a{
+text-decoration: none;
+font-size: 30px;
+color: darkblue;
+font-weight: 4px solid;
+}
+.link{
+   
+}
+button{
+background-color: darkblue;
+color: white;
+padding: 4px 15px;
+border-radius: 6px;
+margin-top: 30px;
+}
+
+
