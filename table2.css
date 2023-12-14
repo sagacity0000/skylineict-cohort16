@@ -1,0 +1,111 @@
+.flex{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.container{
+
+    margin-top: 20px;
+}
+
+
+table, td, th{
+    border: 1px solid;
+      border-collapse: collapse ;
+      border-color: grey;
+  }
+
+
+
+
+table{
+
+    width: 100%;
+    font-size: 15px;
+}
+
+
+
+td, th{
+
+    padding: 23px;
+    /* border-color: aqua; */
+}
+
+
+input[type=text]{
+    padding: 6px;
+    border: 1px solid grey;
+    background-color:transparent;
+}
+
+
+select{
+
+    padding: 6px;
+    border: 1px solid grey;
+    background-color:transparent;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.fa-solid{
+
+    font-size: 18px;
+    padding: 9px;
+    color: lightgrey;
+}
+
+.change{
+
+    background-color: lightgreen;
+}
+
+.first{
+
+    background-color: orange;
+}
+
+
+.second{
+
+    background-color: lightgreen;
+}
+
+
+.Third{
+
+    background-color: orange;
+}
+
+
+
+.fourth{
+
+    background-color: orange;
+}
+
+
+
+.fifth{
+
+    background-color: lightgreen;
+}
+
+
+
+.sixth{
+
+    background-color: red;
+}
+
+
+
+.seventh{
+
+    background-color: red;
+}
